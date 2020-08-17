@@ -1117,6 +1117,21 @@
                 <RunTimePermissions></RunTimePermissions>
             </Entity>
             <Entity
+             name="Thing_Three"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
              name="Thing_One"
              type="Thing">
                 <VisibilityPermissions>
